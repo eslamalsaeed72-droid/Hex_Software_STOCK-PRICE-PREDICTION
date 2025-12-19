@@ -1,0 +1,11 @@
+# requirements.txt
+# Dependencies for Stock Price Prediction LSTM Project
+
+yfinance>=0.2.40          # For downloading real-time stock data
+tensorflow>=2.15.0        # Deep learning framework (LSTM)
+pandas>=2.2.0             # Data manipulation and analysis
+numpy>=1.26.0             # Numerical computations
+scikit-learn>=1.4.0       # Data preprocessing and evaluation metrics
+matplotlib>=3.8.0         # Plotting results and visualizations
+streamlit>=1.35.0         # Interactive web application
+joblib>=1.4.0             # Saving/loading scaler
