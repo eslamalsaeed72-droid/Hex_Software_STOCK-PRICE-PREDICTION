@@ -9,7 +9,7 @@ from datetime import datetime
 
 # تحميل الموديل والـ scaler
 @st.cache_resource
-def load_artifacts():
+def load_artifacts(): 
     model = load_model('lstm_stock_model.h5')
     scaler = joblib.load('scaler.pkl')
     return model, scaler
