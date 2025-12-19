@@ -10,8 +10,8 @@ from datetime import datetime
 # Load the model and scaler
 @st.cache_resource
 def load_artifacts():
-    model = load_model('lstm_stock_model.h5')
-    scaler = joblib.load('scaler.pkl')
+    model = load_model('models/lstm_stock_model.h5')  
+    scaler = joblib.load('models/scaler.pkl')
     return model, scaler
 
 model, scaler = load_artifacts()
